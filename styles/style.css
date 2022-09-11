@@ -1,0 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+/*
+    - display: block; cho thẻ nào inline để dễ căn giữa, hoặc CSS cho nó
+    - object-fit: cover; để ảnh ko bị scale và xét cho nó width và height 
+
+    - muốn center đối vs thẻ block => margin: 0 auto; (viết tắt)
+    - muốn center đối vs thẻ inline => cho thẻ block (div) bọc ngoài thẻ inline, rồi CSS là text-align: center;
+ */
