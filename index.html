@@ -9,10 +9,117 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div class="demo">phần mềm văn phòng</div>
+    <div class="header">
+        <div class="header__select">
+            <a href="#" class="logo-selected"><img src="./images/logo/logo-macintosh-1536x353.png" alt="" class="logo"></a>
+            <div class="input-selected">
+                <span class="fa fa-magnifying-glass icon-search"></span>
+                <input type="text" placeholder="Nhập nội dung cần tìm" name="input" id="">
+            </div>
+        </div>
+        <ul class="header__list">
+            <li class="item"><a href="#" class="item-text">Diễn đàn</a></li>
+            <li class="item"><a href="#" class="item-text">Tin tức</a></li>
+            <li class="item"><a href="#" class="item-text">inmac shop</a></li>
+            <li class="item"><a href="#" class="item-text">Lola Leather</a></li>
+        </ul>
+        <div class="header__avatar">
+            <a href="#"><img src="./images/avt/user-icon.svg" alt="" class="avatar"></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="aside">
+            <div class="aside__software-list">
+                <a href="#" style="display: block;" class="software-list__selected">
+                    <span class="fa-brands fa-apple logo-apple"></span>
+                    <span class="software-list__text">Phần mềm</span>
+                </a>
+            </div>
+            <ul class="aside__list">
+                <li class="aside__item"><a href="#" class="aside__item-text">App cho M1</a></li>
+                <li class="aside__item"><a href="#" class="aside__item-text">Văn phòng</a></li>
+                <li class="aside__item"><a href="#" class="aside__item-text">Đồ họa</a></li>
+                <li class="aside__item"><a href="#" class="aside__item-text">Dựng phim</a></li>
+                <li class="aside__item"><a href="#" class="aside__item-text">Developer</a></li>
+                <li class="aside__item"><a href="#" class="aside__item-text">Giải trí</a></li>
+            </ul>
+            <div class="aside__game-list">
+                <a href="#" style="display: block;" class="game-list__selected">
+                    <span class="fa-solid fa-gamepad logo-game"></span>
+                    <span class="game-list__text">Game</span>
+                </a>
+            </div>
+            <div class="aside__image">
+                <img src="./images/sidebar/sidebar.png" alt="" class="image">
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="page__slide-notification">
+                <div class="page__notifi">
+                    <div class="page_notifi-text">
+                        <h2>Bật Anywhere, khắc phục lỗi damage, can't open... by developer</h2>
+                        <p>Thủ thuật cần khi cài ứng dụng từ bên thứ ba</p>
+                    </div>
+                    <div class="image-notifi">
+                        <img src="./images/slider/Converted.png" alt="" class="sub-image">
+                    </div>
+                    <div class="round-dot">
+                        <span class="dot1"></span>
+                        <span class="dot2"></span>
+                    </div>
+                </div>
+                <div class="page__beginner">
+                    <div class="page__beginner-text">
+                        <h3 style="font-size: larger;">Hướng dẫn cho người mới bắt đầu</h3>
+                        <p><a href="#">Tìm hiểu thêm</a></p>
+                    </div>
+                    <img src="./images/slider/banner-guide.png" alt="" class="img-beginner">
+                </div>
+            </div>
+            <div class="page__last-update-list">
+                <div class="title-update">
+                    <h3 class="title-update-text-left">Cật nhập mới nhất</h3>
+                    <a href="#"><span class="title-update-text-right">Tất cả</span></a>
+                </div>
+                <div class="update-item-wrapper">
+                    <div class="update-item">
+                        
+                        <img src="./images/last-update/Microsoft Outlook 2019 v16.52.png" alt="" class="update-item-img">
+                        
+                        <div class="update-item-desc">
+                            <h4>Microsoft Outlook 2019 v16.25</h4>
+                            <span>Phần mềm quản lí mail</span>
+                        </div>
+                        <div class="item-button update-button">
+                            <button class="btn">Chi tiết</button>
+                            <p>Miễn phí</p>
+                        </div>
+                    </div>
+                    <div class="update-item"></div>
+                    <div class="update-item"></div>
+                    <div class="update-item"></div>
+                    <div class="update-item"></div>
+                    <div class="update-item"></div>
+                    <div class="update-item"></div>
+                    <div class="update-item"></div>
+                    <div class="update-item"></div>
+                </div>
+            </div>
+            <div class="page__app-list">
+                <div class="popular-list-masos"></div>
+                <div class="other-popular-list"></div>
+            </div>
+            <div class="page__error-list"></div>
+            <div class="page__new-game"></div>
+            <div class="page__game-choice"></div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
 </body>
 </html>
