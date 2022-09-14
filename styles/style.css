@@ -9,34 +9,6 @@ body {
 a {
     text-decoration: none;
 }
-/*
-    - display: block; cho thẻ nào inline để dễ căn giữa, hoặc CSS cho nó
-    - object-fit: cover; để ảnh ko bị scale và xét cho nó width: 100% và height: 100% 
-
-    - muốn center đối vs thẻ block => margin: 0 auto; (viết tắt)
-    - muốn center đối vs thẻ inline => cho thẻ block (div) bọc ngoài thẻ inline, rồi CSS là text-align: center;
-
-    - .pesudo:hover {
-        color: red;
-    } => khi rê chuột vào thì thẻ a có class là pesudo sẽ ra chữ màu đỏ
-
-    - .pesudo:active {
-        color: orange;
-    } => khi nhấn chuột vào thì thẻ a có class là pesudo sẽ ra chữ màu cam
-
-    - .pesudo:visited {
-        color: orange;
-    } => khi đã nhấn chuột rồi nên nó nhớ chữ đó là màu cam
-
- */
-/* ------------------------------------------------------------------------ */
-
- /*     Flexbox:
-    - display: flex; => phải gắn vào thẻ cha, độ rộng bằng phần tử cha chứa nó (có inline-flex)
-    - align-item: center; để chia đều flex
-    
-  */
-
 .header {
     width: 100%;
     display: flex;
