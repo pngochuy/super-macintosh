@@ -319,12 +319,14 @@ a:active {
 .update-item-desc {
     width: max-content;
     line-height: 20px;
-    margin: -13px 0 0 10px;
+    margin: -13px 10px 0 10px;
 }
 
 .update-item-desc h4 {
     color: #3c4263;
-
+}
+.update-item-desc h4:hover {
+    color: #5466e7;
 }
 .update-item-desc p {
     color: #a4a4b4;
@@ -363,15 +365,18 @@ a:active {
     object-fit: cover;
 }
 
-.update-item-desc-writer-text {
+.update-item-writer-desc {
     width: max-content;
     line-height: 20px;
     margin: -13px 0px 0 10px;
 }
-.update-item-desc-writer-text h4 {
+.update-item-writer-desc h4 {
     color: #3c4263;
 }
-.update-item-desc-writer-text p {
+.update-item-writer-desc h4:hover {
+    color: #5466e7;
+}
+.update-item-writer-desc p {
     color: #a4a4b4;
     margin: -19px 0 0 0;
     font-size: 12px;
@@ -388,10 +393,13 @@ a:active {
 .update-item-pp-desc {
     width: max-content;
     line-height: 20px;
-    margin: -13px 0 0 10px;
+    margin: -13px 10px 0 10px;
 }
 .update-item-pp-desc h4 {
     color: #3c4263;
+}
+.update-item-pp-desc h4:hover {
+    color: #5466e7;
 }
 .update-item-pp-desc p {
     color: #a4a4b4;
@@ -540,8 +548,11 @@ a:active {
     width: 100%;
     line-height: 20px;
     margin: -13px 0 0 0;
+    border-bottom: 1px solid #a4a4b4;
+    margin-bottom: 10px;
 }
-.title-desc h4 {
+.title-desc a, .title-desc h4 {
+    width: max-content;
     color: #3c4263;
 }
 .title-desc h4:hover {
@@ -558,10 +569,7 @@ a:active {
     background-color: #fff;
     border-radius:0 0 10px 10px;
 }
-.title-desc {
-    border-bottom: 1px solid #a4a4b4;
-    margin-bottom: 10px;
-}
+
 .specific-desc {
     display: flex;
     font-size: 13px;
@@ -625,6 +633,9 @@ a:active {
     margin: -13px 10px 0 10px;
     width: max-content;
 }
+.film-title-desc h4 {
+    color: #252d51;
+}
 .film-title-desc h4:hover {
     color: #6575e9;
 }
@@ -683,7 +694,7 @@ a:active {
     border-radius: 10px;
 }
 .error-desc {
-    width: 100%;
+    width: max-content;
     line-height: 20px;
     margin: -10px 0 0 0;
 }
@@ -844,17 +855,17 @@ a:active {
     background-color: #6575e9;
     color: #fff;
 }
-.game-birds-desc {
-    width: 100%;
+.game-new-desc {
+    width: max-content;
     height: 33.33%;
-    margin-top: -30px;
+    margin-top: -10px;
     /* line-height: 20px;
     margin: 0 0 0 0; */
 }
-.game-birds-desc h4:hover {
+.game-new-desc h4:hover {
     color: #6575e9;
 }
-.game-birds-desc h4 {
+.game-new-desc h4 {
     color: #3c4263;
     
 }
@@ -956,9 +967,7 @@ a:active {
     border-radius: 10px;
 }
 .choice-desc {
-    width: 100%;
-    /* line-height: 20px;
-    margin: 0 0 0 0; */
+    width: max-content;
 }
 .choice-desc h4:hover {
     color: #6575e9;
@@ -967,12 +976,6 @@ a:active {
     color: #3c4263;
     
 }
-/* .choice-desc p {
-    color: #a4a4b4;
-    margin: -19px 0 0 0;
-    font-size: 12px;
-    margin-bottom: 18px;
-} */
 .upcoming-text {
     font-size: 12px;
 }
@@ -985,6 +988,9 @@ a:active {
 .footer {
     width: max-content;
     margin: 10px auto;
+}
+.footer span {
+    font-weight: 600;
 }
 .footer-link {
     color: #5466e7;
