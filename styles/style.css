@@ -15,7 +15,10 @@ a {
     padding: 24px;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 2;
 }
 .header__select {
     width: 40%;
@@ -85,10 +88,16 @@ a:active {
 /* ------------------------------------------ */
 .main {
     display: flex;
+    position: relative;
+    top: 100px;
 }
 .aside {
     width: 18%;
     padding: 0 25px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 100px;
 }
 .aside__item-text {
     color: #8082a0;
@@ -156,11 +165,12 @@ a:active {
     border-radius: 10px;
 }
 .image {
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-    display: block;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+    /* display: block; */
     object-fit: cover;
-    
 }
 .page {
     width: 82%;
@@ -168,6 +178,8 @@ a:active {
     /* background-color: #f9f8fd; */
     background-color: #f9f8fd;
     padding: 35px 30px;
+    position: relative;
+    left: 272px;
 }
 
 .page__slide-notification {
@@ -959,12 +971,54 @@ a:active {
 }
 .choice-img {
     height: 260px;
+    position: relative;
 }
 .choice-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+.play-img {
+    border-radius: 10px;
+    background: rgba(12, 12, 12, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(44, 51, 85, 0.478);
+    border-radius: 50%;
+}
+.play span {
+    font-size: 30px;
+    color: white;
+}
+.choice-img:hover .play-img {
+    border-radius: 10px;
+    background: rgba(12, 12, 12, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .choice-desc {
     width: max-content;
@@ -988,7 +1042,11 @@ a:active {
 .footer {
     width: max-content;
     margin: 10px auto;
+    margin: 10px 50px 10px 700px;
+    position: relative;
+    top: 100px;
 }
+
 .footer span {
     font-weight: 600;
 }
