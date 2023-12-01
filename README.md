@@ -37,7 +37,7 @@ Mancitosh/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mancitosh.git
+git clone https://github.com/pngochuy/super-macintosh.git
 ```
 ### 2. Open index.html in a Browser
 Simply open the index.html file in your preferred web browser.
